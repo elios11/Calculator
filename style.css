@@ -6,8 +6,17 @@ body {
     text-align: right;
     height: 100%;
     background-color: rgb(22, 22, 22);
-    color: rgb(255, 255, 255);
-    font-size: 50px;
+    display: inline-grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: right;
+}
+.screenText {
+    padding-right: 20px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    font-size: 65px;
 }
 .pad {
     display: grid;
