@@ -1,5 +1,5 @@
 // Buttons
-const screen = document.querySelector(".screen");
+const screen = document.querySelector(".screenText ");
 
 const button0 = document.querySelector(".button0");
 button0.addEventListener("click", () => {
