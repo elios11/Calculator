@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: rgb(51, 51, 51);
 }
 .screen {
     margin: auto;
@@ -10,13 +10,17 @@ body {
     grid-auto-flow: column;
     align-items: center;
     justify-content: right;
+    max-width: 800px;
 }
 .screenText {
-    padding-right: 20px;
+    padding-right: 30px;
     color: white;
     top: 50%;
     left: 50%;
-    font-size: 65px;
+    font-size: 50px;
+    user-select: none;
+    font-family: Montserrat;
+    overflow: none;
 }
 .pad {
     display: grid;
@@ -24,9 +28,10 @@ body {
     grid-template-rows: auto auto auto;
     cursor: default;
     margin: 0 auto;
-    height: 650px;
-    width: 550px;
+    height: 1000px;
+    width: 800px;
     background-color: rgb(34, 34, 34);
+    border: rgb(102, 6, 89) 2px solid;
 }
 
 /* Buttons */
