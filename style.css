@@ -1,6 +1,7 @@
 body {
     background-color: rgb(51, 51, 51);
 }
+
 .screen {
     margin: auto;
     text-align: right;
@@ -12,6 +13,7 @@ body {
     justify-content: right;
     max-width: 800px;
 }
+
 .screenText {
     padding-right: 30px;
     color: white;
@@ -22,6 +24,7 @@ body {
     font-family: Montserrat;
     overflow: none;
 }
+
 .pad {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -48,7 +51,8 @@ button:hover {
 button:focus {
     outline: none;
 }
-.button1, .button2, .button3, .button4, .button5, .button6, .button7, .button8, .button9, .button0 {
+
+.numberButton {
     color: white;
     font-weight: 700;
 }
@@ -58,34 +62,43 @@ button:focus {
     grid-area: 1/1/1/5;
     width: 100%;
 }
-.button0 {
+
+#button0 {
     grid-area: 5/2/5/3;
 }
-.buttonPercentage {
+
+#percentageButton {
     grid-area: 2/3/2/4;
 }
-.buttonSlash {
+
+#divideButton {
     grid-area: 2/4/2/5;
 }
-.buttonAsterisk {
+
+#asteriskButton {
     grid-area: 3/4/3/5;
 }
-.buttonLess {
+
+#lessButton {
     grid-area: 4/4/4/5;
 }
-.buttonPlus {
+
+#plusButton {
     grid-area: 5/4/5/5;
 }
-.buttonEquals {
+
+#equalsButton {
     grid-area: 6/4/6/5;
 }
-.buttonDot {
+
+#dotButton {
     grid-area: 6/3/6/4;
 }
-.button0 {
+
+#button0 {
     grid-area: 6/2/6/3;
 }
 
-.delete {
+#deleteButton {
     font-size: 20px;
 }
