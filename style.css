@@ -2,30 +2,33 @@ body {
     background-color: rgb(51, 51, 51);
 }
 
-.screen {
+#screen {
     margin: auto;
     text-align: right;
     height: 100%;
     background-color: rgb(22, 22, 22);
     display: inline-grid;
-    grid-auto-flow: column;
     align-items: center;
     justify-content: right;
     max-width: 800px;
 }
 
-.screenText {
+#screenText, #operationText {
     padding-right: 30px;
+    padding-left: 30px;
     color: white;
-    top: 50%;
-    left: 50%;
     font-size: 50px;
     user-select: none;
     font-family: Montserrat;
-    overflow: none;
 }
 
-.pad {
+#operationText {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: rgb(110, 110, 110);
+}
+
+#pad {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: 200px auto auto;
@@ -44,10 +47,13 @@ button {
     color: rgb(167, 165, 212);
     font-weight: 600;
     border: none;
+    font-size: 150%;
 }
+
 button:hover {
     background-color:rgb(36, 36, 36)
 }
+
 button:focus {
     outline: none;
 }
@@ -58,7 +64,7 @@ button:focus {
 }
 
 /* Buttons Grid Area */
-.screen {
+#screen {
     grid-area: 1/1/1/5;
     width: 100%;
 }
